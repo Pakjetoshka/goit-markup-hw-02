@@ -1,0 +1,200 @@
+/* --------------------Кольори-------------------- */
+:root{
+    --iris: #4d5ae5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --nb-modal: #2E2F4266;
+    --grey: #2E2F42B2;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+
+/* ---------------------------Body--------------------------- */
+
+.page-body{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+}
+
+
+/* ------------Header та Footer для усіх сторінок------------ */
+
+.footer{
+
+    background-color: var(--navy-blue);
+}
+
+.logo{
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-header{
+    color: var(--navy-blue);
+}
+
+.logo-footer{
+    color: var(--cloud);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-item{
+    color: var(--navy-blue);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: var(--ocean);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: underline;
+}
+
+.link{
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--ocean);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: underline;
+}
+
+.basement{
+    background-color: var(--navy-blue);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+
+.basement-text{
+    color: var(--cloud);
+}
+
+
+/* -----------------Main для усіх сторінок----------------- */
+
+.button{
+    background-color: var(--cornflower);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    color: var(--iris);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+
+.button:hover{
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.button:active{
+    background-color: var(--iris);
+}
+
+
+/* -----------------Main Studio----------------- */
+.order-service-section{
+    background-color: var(--navy-blue);
+}
+
+.first-header{
+    color: var(--white);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.second-header{
+    color: var(--navy-blue);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.third-header{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.we-do-img{
+    width: 360px;
+    height: 300px;
+    border: 1px solid var(--cornflower);
+    background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
+
+}
+
+.team-photo{
+    width: 264px;
+    height: 260px;
+    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+}
+
+
+/* -----------------Main Portfolio----------------- */
+
