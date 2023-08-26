@@ -48,7 +48,7 @@
     text-decoration: none;
 }
 
-.logo-link{
+.link{
     text-decoration: none;
 }
 
@@ -86,7 +86,7 @@
     text-decoration: underline;
 }
 
-.link{
+.contact-information{
     color: var(--slate);
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -97,7 +97,7 @@
     text-decoration: none;
 }
 
-.link:hover{
+.contact-information:hover{
     color: var(--ocean);
     font-family: Roboto, sans-serif;
     font-size: 16px;
