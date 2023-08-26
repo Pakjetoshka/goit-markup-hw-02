@@ -38,13 +38,17 @@
 
 .logo{
     color: var(--iris);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-link{
     text-decoration: none;
 }
 
@@ -56,13 +60,13 @@
     color: var(--cloud);
 }
 
-ul {
-    list-style-type: none;
+.list {
+    list-style: none;
 }
 
 .nav-item{
     color: var(--navy-blue);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -73,7 +77,7 @@ ul {
 
 .nav-item:hover{
     color: var(--ocean);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -84,7 +88,7 @@ ul {
 
 .link{
     color: var(--slate);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +99,7 @@ ul {
 
 .link:hover{
     color: var(--ocean);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -119,7 +123,7 @@ ul {
 .button{
     background-color: var(--cornflower);
     color: var(--iris);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -145,7 +149,7 @@ ul {
 
 .first-header{
     color: var(--white);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 2%;
@@ -155,7 +159,7 @@ ul {
 
 .second-header{
     color: var(--navy-blue);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -165,7 +169,7 @@ ul {
 }
 
 .third-header{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
