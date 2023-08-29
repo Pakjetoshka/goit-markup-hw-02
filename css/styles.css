@@ -75,7 +75,7 @@
     text-decoration: none;
 }
 
-.nav-item:hover{
+.nav-item:hover, .nav-item:focus, .nav-item:active{
     color: var(--ocean);
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -84,6 +84,10 @@
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: underline;
+}
+
+.adds{
+    font-style: normal;
 }
 
 .contact-information{
@@ -97,7 +101,7 @@
     text-decoration: none;
 }
 
-.contact-information:hover{
+.contact-information:hover, .contact-information:focus{
     color: var(--ocean);
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -120,24 +124,46 @@
 
 /* -----------------Main для усіх сторінок----------------- */
 
-.button{
-    background-color: var(--cornflower);
-    color: var(--iris);
+.ind-button{
+    background-color: var(--iris);
+    color: var(--white);
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    cursor: pointer;
 }
 
 
-.button:hover{
+.ind-button:hover, .ind-button:focus{
     background-color: var(--ocean);
     color: var(--white);
 }
 
-.button:active{
+.ind-button:active{
+    background-color: var(--iris);
+}
+
+.por-button{
+    background-color: var(--cloud);
+    color: var(--iris);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.por-button:hover, .por-button:focus{
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.por-button:active{
     background-color: var(--iris);
 }
 
@@ -152,8 +178,8 @@
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     text-align: center;
 }
 
@@ -163,18 +189,39 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .third-header{
+    color: var(--navy-blue);
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+}
+
+.studio-text{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.studio-forth-section{
+    background-color: var(--cloud);
+}
+
+.team{
+    background-color: var(--white);
 }
 
 .we-do-img{
@@ -190,3 +237,32 @@
 
 /* -----------------Main Portfolio----------------- */
 
+.first-header-por{
+    color: var(--navy-blue);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.second-header-por{
+    color: var(--navy-blue);
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.por-text{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
