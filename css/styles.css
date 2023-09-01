@@ -95,40 +95,6 @@ body{
 
 /* -----------------Main для усіх сторінок----------------- */
 
-.ind-button{
-    background-color: var(--iris);
-    color: var(--white);
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
-
-
-.ind-button:hover, .ind-button:focus{
-    background-color: var(--ocean);
-    color: var(--white);
-}
-
-.ind-button:active{
-    background-color: var(--iris);
-}
-
-.por-button{
-    background-color: var(--cloud);
-    color: var(--iris);
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
-
-.por-button:hover, .por-button:focus{
-    background-color: var(--ocean);
-    color: var(--white);
-}
-
-.por-button:active{
-    background-color: var(--iris);
-}
 
 
 /* -----------------Main Studio----------------- */
@@ -141,6 +107,8 @@ body{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .second-header{
@@ -148,16 +116,45 @@ body{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .third-header{
     color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 
-.studio-forth-section{
+.ind-button{
+    background-color: var(--iris);
+    color: var(--white);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.ind-button:hover, .ind-button:focus{
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.ind-button:active{
+    background-color: var(--iris);
+}
+
+.ind-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.studio-fourth-section{
     background-color: var(--cloud);
 }
 
@@ -189,17 +186,30 @@ body{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-/*
+.por-button{
+    background-color: var(--cloud);
+    color: var(--iris);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.por-button:hover, .por-button:focus{
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.por-button:active{
+    background-color: var(--iris);
+}
+
 .por-text{
-    font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
-class="por-text"
-*/
