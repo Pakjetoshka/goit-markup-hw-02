@@ -17,13 +17,11 @@
 
 /* ---------------------------Body--------------------------- */
 
-.page-body{
+body{
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate);
     background-color: var(--white);
 }
@@ -32,7 +30,6 @@
 /* ------------Header та Footer для усіх сторінок------------ */
 
 .footer{
-
     background-color: var(--navy-blue);
 }
 
@@ -40,10 +37,9 @@
     color: var(--iris);
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -66,23 +62,12 @@
 
 .nav-item{
     color: var(--navy-blue);
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
     text-decoration: none;
 }
 
 .nav-item:hover, .nav-item:focus, .nav-item:active{
     color: var(--ocean);
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
     text-decoration: underline;
 }
 
@@ -92,29 +77,15 @@
 
 .contact-information{
     color: var(--slate);
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
     text-decoration: none;
 }
 
 .contact-information:hover, .contact-information:focus{
     color: var(--ocean);
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-decoration: underline;
 }
 
 .basement{
     background-color: var(--navy-blue);
-    flex-shrink: 0;
 }
 
 .basement-text{
@@ -127,12 +98,8 @@
 .ind-button{
     background-color: var(--iris);
     color: var(--white);
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -149,11 +116,7 @@
 .por-button{
     background-color: var(--cloud);
     color: var(--iris);
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -175,45 +138,23 @@
 
 .first-header{
     color: var(--white);
-    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 0.02em;
     line-height: 1.07;
-    text-align: center;
 }
 
 .second-header{
     color: var(--navy-blue);
-    font-family: Roboto, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    text-align: center;
 }
 
 .third-header{
     color: var(--navy-blue);
-    font-family: Roboto, sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-}
-
-.studio-text{
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    color: var(--slate);
-    background-color: var(--white);
+    line-height: 1,2;
 }
 
 .studio-forth-section{
@@ -227,7 +168,6 @@
 .we-do-img{
     border: 1px solid var(--cornflower);
     background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
-
 }
 
 .team-photo{
@@ -239,24 +179,19 @@
 
 .first-header-por{
     color: var(--navy-blue);
-    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 0.02em;
     line-height: 1.07;
-    text-align: center;
 }
 
 .second-header-por{
     color: var(--navy-blue);
-    font-family: Roboto, sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 
+/*
 .por-text{
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -266,3 +201,5 @@
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+class="por-text"
+*/
